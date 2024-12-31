@@ -17,7 +17,7 @@ and evaluating them to compute floating-point results.
 Ideal for graphing, mathematical analysis, or custom calculation engines.
 """
 homepage = "https://github.com/bharatha-desilva/expression_engine"
-# repository = "https://github.com/bharatha-desilva/expression_engine.git"
+repository = "https://github.com/bharatha-desilva/expression_engine.git"
 license = "MIT"
 keywords = ["expression", "cli", "math", "parse", "evaluate"]
 categories = ["web-programming"]
