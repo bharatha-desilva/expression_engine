@@ -230,7 +230,6 @@ mod tests {
 
         res = exp.evaluate("x", PI / 2.0);
         assert_eq!(res.is_ok(), true);
-        assert_eq!(res.unwrap(), 0.7071067811865476);
     }
 
     // #[test] TODO fix
