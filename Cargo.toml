@@ -1,0 +1,39 @@
+[workspace]
+
+members = [
+    "expression_engine",
+    "expression_engine_cli",
+    "expression_engine_yew_app",
+]
+
+[workspace.package]
+version = "1.0.0"
+authors = ["Bharatha De Silva <bharathanet@gmail.com>"]
+edition = "2021"
+rust-version = "1.83.0"
+description = """
+A versatile library for parsing mathematical expressions into a tree-like structure (ExpressionNode) 
+and evaluating them to compute floating-point results. 
+Ideal for graphing, mathematical analysis, or custom calculation engines.
+"""
+homepage = "https://github.com/bharatha-desilva/expression_engine"
+# repository = "https://github.com/bharatha-desilva/expression_engine.git"
+license = "MIT"
+keywords = ["expression", "cli", "math", "parse", "evaluate"]
+categories = ["web-programming"]
+
+
+resolver = "2"
+
+[profile.release]
+opt-level = 3
+
+[profile.wasm-dev]
+inherits = "dev"
+opt-level = 1
+
+[profile.server-dev]
+inherits = "dev"
+
+[profile.android-dev]
+inherits = "dev"

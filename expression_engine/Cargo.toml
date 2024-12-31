@@ -1,0 +1,17 @@
+[package]
+name = "expression_engine"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+description.workspace = true
+homepage.workspace = true
+repository.workspace = true
+documentation = "https://docs.rs/expression_engine"
+keywords.workspace = true
+categories.workspace = true
+readme = "README.md"
+
+[dependencies]
+regex = "1.11.1"
